@@ -40,22 +40,6 @@
 
 ---
 
-## 📋 Supported Versions
-
-```
-1.13 · 1.13.1 · 1.13.2
-1.14 · 1.14.1 · 1.14.2 · 1.14.3 · 1.14.4
-1.15 · 1.15.1 · 1.15.2
-1.16 · 1.16.1 · 1.16.2 · 1.16.3 · 1.16.4 · 1.16.5
-1.17 · 1.17.1
-1.18 · 1.18.1 · 1.18.2
-1.19 · 1.19.1 · 1.19.2 · 1.19.3 · 1.19.4
-1.20 · 1.20.1 · 1.20.2 · 1.20.3 · 1.20.4 · 1.20.6
-1.21 · 1.21.1 · 1.21.2 · 1.21.3 · 1.21.4 · 1.21.11
-```
-
-> ❌ 1.12.2 and below — NOT supported
-
 ---
 
 ## 📦 Installation
@@ -141,16 +125,6 @@ Full config → [`src/main/resources/config.yml`](src/main/resources/config.yml)
 
 ---
 
-## 🔨 TPA Ban Examples
-
-```bash
-/tpaban Steve 1h Spamming        # Ban for 1 hour
-/tpaban Steve 30m                # Ban for 30 minutes
-/tpaban Steve 7d Abusing TPA     # Ban for 7 days
-/tpaban Steve 0                  # Permanent ban
-/tpaban unban Steve              # Unban
-/tpaban list                     # View all active bans
-```
 
 ---
 
@@ -162,40 +136,6 @@ cd KroxyTpa
 mvn clean package
 # Output: target/KroxyTpa.jar
 ```
-
-**Requirements:** Java 8+, Maven 3.6+
-
----
-
-## 📁 Project Structure
-
-```
-KroxyTpa/
-├── src/main/java/me/kroxytpa/kroxytpa/
-│   ├── KroxyTpa.java              # Main plugin class
-│   ├── TpaRequest.java            # TPA request model
-│   ├── commands/
-│   │   └── CommandHandler.java    # All command handling
-│   ├── gui/
-│   │   ├── KroxyTpaGui.java       # Main TPA GUI
-│   │   ├── BanListGui.java        # Ban list GUI
-│   │   └── BanConfirmGui.java     # Ban confirm GUI
-│   ├── listeners/
-│   │   ├── GuiClickListener.java
-│   │   ├── BanGuiClickListener.java
-│   │   ├── CooldownChatListener.java
-│   │   └── PlayerMoveListener.java
-│   ├── managers/
-│   │   ├── TpaManager.java        # Core TPA logic
-│   │   ├── BanManager.java        # Ban system
-│   │   └── DataManager.java       # SQLite data storage
-│   └── utils/
-│       └── GradientUtil.java      # Color/gradient parsing
-└── src/main/resources/
-    ├── config.yml                 # Default configuration
-    └── plugin.yml                 # Plugin metadata
-```
-
 ---
 
 ## 👤 Author
@@ -204,5 +144,3 @@ KroxyTpa/
 🌐 [www.kroxy.org](https://www.kroxy.org)
 
 ---
-
-> ⚠️ Requires Minecraft 1.13+ · Java 8+
