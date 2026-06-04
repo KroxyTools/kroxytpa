@@ -40,11 +40,9 @@
 
 ## 📦 Installation
 
-1. Download `KroxyTpa.jar` from [Releases](../../releases)
+1. Download `KroxyTpa.jar`
 2. Place it in your server's `/plugins` folder
 3. Start/restart your server
-4. Configure in `/plugins/KroxyTpa/config.yml`
-5. Run `/kroxytpa reload` after any config changes
 
 ---
 
