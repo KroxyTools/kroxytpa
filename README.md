@@ -5,7 +5,6 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-FF0072?style=for-the-badge)
 ![MC Versions](https://img.shields.io/badge/minecraft-1.13--1.21.11-22FF00?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Spigot%20%7C%20Paper%20%7C%20Purpur-blue?style=for-the-badge)
-![Java](https://img.shields.io/badge/java-8+-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-yellow?style=for-the-badge)
 
 ---
@@ -35,9 +34,6 @@
 | Spigot | ✅ |
 | Purpur | ✅ |
 | Bukkit | ✅ |
-| BungeeCord / Velocity | ❌ |
-| Fabric / Forge | ❌ |
-
 ---
 
 ---
@@ -107,35 +103,6 @@
 
 > 💡 Assign player permissions via **LuckPerms** or any permission plugin.
 
----
-
-## ⚙️ Configuration
-
-```yaml
-settings:
-  countdown-seconds:      5      # Seconds before teleport
-  request-expire-seconds: 60     # Request auto-expire time
-  cancel-on-move:         true   # Cancel teleport if player moves
-  max-pending-requests:   5      # Max outgoing requests per player
-  sounds-enabled:         true   # Enable/disable sounds
-  tpa-cooldown:           0      # Cooldown between requests (0 = off)
-```
-
-Full config → [`src/main/resources/config.yml`](src/main/resources/config.yml)
-
----
-
-
----
-
-## 🏗️ Building from Source
-
-```bash
-git clone https://github.com/YourUsername/KroxyTpa.git
-cd KroxyTpa
-mvn clean package
-# Output: target/KroxyTpa.jar
-```
 ---
 
 ## 👤 Author
